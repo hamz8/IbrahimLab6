@@ -21,7 +21,7 @@ function Level(plan) {
       // Use if and else to handle the three cases
       if (ch==='@')
         // Create a new player at that grid position.
-        this.player = new Player(new Vector(x, y));
+        this.player = new Player(new Vector(03, 10));
       else if (ch == "x")
         fieldType = "wall";
       // Because there is a third case (space ' '), use an "else if" instead of "else"
